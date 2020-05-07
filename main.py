@@ -1,5 +1,5 @@
 from flask import Flask, render_template, Response
-from Camera_module import PiVideoCamera
+from Camera_module import VideoCamera
 
  
 app = Flask(__name__)
